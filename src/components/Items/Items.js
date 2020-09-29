@@ -7,7 +7,7 @@ import { connect } from "react-redux";
 class Items extends Component {
   render() {
     const list = this.props.list.map((item) => (
-      <Item key={Math.floor(Math.random() * 100)}>{item}</Item>
+      <Item key={item.id}>{item.content}</Item>
     ));
     return <div className={classes.Items}>{list}</div>;
   }

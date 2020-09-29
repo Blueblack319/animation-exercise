@@ -1,1 +1,1 @@
-export { addItem } from "./homeAction";
+export { addItem, removeItem } from "./homeAction";
