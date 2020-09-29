@@ -7,9 +7,9 @@ export const addItem = (content) => {
   };
 };
 
-export const removeItem = (key) => {
+export const removeItem = (id) => {
   return {
     type: actionTypes.REMOVE_ITEM,
-    key,
+    id,
   };
 };
